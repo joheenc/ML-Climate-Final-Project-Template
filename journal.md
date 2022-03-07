@@ -12,3 +12,7 @@ Feb 19: Useful links
 scil1c guide (command-line tool to calibrate level 1b to 1c product files): https://www.google.com/search?q=scial1c+guide&rlz=1C1CHBF_enUS731US731&oq=scial1c+guide&aqs=chrome..69i57j69i60.4008j0j7&sourceid=chrome&ie=UTF-8
 sciamachy product handbook (science description of the telescope and spectrometer): https://earth.esa.int/eogateway/documents/20142/37627/Envisat-SCIAMACHY-product-handbook.pdf
 I'm now able to use the ESA-provided Python APIs to reduce, calibrate, and visualize SCIAMACHY spectra. However, I'm seeing strange data artifacts with unphysical spectral ranges, which is likely related to some shortcoming in how I'm calibrating the data. This was good progress, though; once I figure out how to properly calibrate the spectra, the next step will be to amass a large quantity of them and then I can start doing some preliminary PCA.
+
+## 2022-03-07 check in: alp
+
+Looking good. Would encourage trying to get some initial results soon, as this will help clarify the modeling approach you are taking. Also please try to update this weekly.
